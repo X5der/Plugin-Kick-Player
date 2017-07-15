@@ -17,6 +17,6 @@ public function onKick(PlayerKickEvent $event){
 $player = $event->getPlayer();
 $name = $event->getName();
 
-$player->setKickMessage(Color::RED."لقد تم طردك من قبل الادمن لعدم تقبل اوامر السيرفر"):
+    $player->setKickMessage(Color::RED."لقد تم طردك من قبل الادمن لعدم تقبل اوامر السيرفر"):
    }
   }
