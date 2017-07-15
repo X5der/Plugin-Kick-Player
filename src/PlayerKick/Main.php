@@ -1,4 +1,5 @@
   <?php
+
  namespace PlayerKick;
  
 use pocketmine\plugin\PluginBase;
