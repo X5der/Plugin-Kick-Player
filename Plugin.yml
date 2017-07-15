@@ -1,6 +1,6 @@
 
-name: KickPlayer
+name: PlayerKick
 version: 1.0v
-main: PKickPlayer\Main
+main: PlayerKick\Main
 api: 3.0.0
 author: Pluginer_Shehab2
