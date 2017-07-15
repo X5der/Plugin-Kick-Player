@@ -4,7 +4,7 @@
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener
 use pocketmine\event\player\PlayerKickEvent;
-pocketmine\text\TextFormat as Color;
+use pocketmine\text\TextFormat as Color;
 
 class Main extends PluginBase implements Listener{
 
