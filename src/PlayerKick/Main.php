@@ -1,9 +1,9 @@
  <?php
 namespace Playerkick;
  
-use pocketmine\plugin\PluginBase;
-use pocketmine\event\Listener؛
-use pocketmine\event\player\PlayerKickEvent;
+ use pocketmine\plugin\PluginBase;
+ use pocketmine\event\Listener؛
+ use pocketmine\event\player\PlayerKickEvent;
 pocketmine\text\TextFormat as Color;
 
 class Main extends PluginBase implements Listener{
