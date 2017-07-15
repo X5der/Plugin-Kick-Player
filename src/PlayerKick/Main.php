@@ -1,5 +1,5 @@
- <?php
-namespace Playerkick;
+  <?php
+ namespace Playerkick;
  
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener
