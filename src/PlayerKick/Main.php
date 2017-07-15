@@ -1,5 +1,5 @@
   <?php
- namespace Playerkick;
+ namespace PlayerKick;
  
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener
@@ -12,11 +12,10 @@ public function onEnable(){
 $this->getServer()->getPluginManager()->registerEvent($this, $this);
  }
 
-public function onKick(PlayerkickEvent $event){
+public function onKick(PlayerKickEvent $event){
 $player = $event->getPlayer();
-$name = &event->getName();
+$name = $event->getName();
 
 $player->setKickMessage(Color::RED."لقد تم طردك من قبل الادمن لعدم تقبل اوامر السيرفر"):
-
  }
   }
